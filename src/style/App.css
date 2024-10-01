@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+
+}
+
+
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+  z-index: 2;
+}
+
+#fullScreenShow {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+
+  visibility: visible;
+
+}
+
+#fullScreenHide {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+
+
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+
+}
+
+.footer {
+  width: 70%;
+  position: fixed;
+  bottom: 0;
+
+}
+
+
+
+
+.bodyhs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+.AppLight {
+  margin: auto;
+  position: relative;
+  width: 70%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  visibility: visible;
+
+}
+
+.darkApp {
+  margin: auto;
+  position: relative;
+  width: 70%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(19, 18, 18);
+  color: white;
+
+
+}
+
+.show {
+  visibility: visible;
+
+}
+
+.hide {
+  visibility: hidden;
+
+}
