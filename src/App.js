@@ -7,7 +7,7 @@ export const Context = React.createContext();
 
 function App() {
   const [show, setshow] = useState(false);
-  const [color, setColor] = useState(true);
+  const [color, setColor] = useState(false);
 
   return (
     <div
