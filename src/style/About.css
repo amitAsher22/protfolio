@@ -1,0 +1,56 @@
+.containerAbout {
+  width: 70%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+
+
+
+
+
+}
+
+.rightAbout {
+  /* background-color: salmon; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
+}
+
+.leftAbout {
+  background-color: rgb(114, 250, 171);
+  width: 30%;
+}
+
+.routerAbout {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1vw;
+}
+
+.routerAbout a {
+
+  text-decoration: none;
+  font-weight: 400;
+
+}
+
+.routerAboutText {
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.mainPageTitle {
+
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+.niceTomeetYou {
+  color: #52c7a2;
+}
